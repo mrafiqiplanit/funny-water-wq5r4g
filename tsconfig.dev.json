@@ -1,0 +1,19 @@
+{
+  "composite": true,
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./build/types"
+  },
+  "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+  "files": ["src/main.tsx"],
+  "isolatedModules": true,
+  "downlevelIteration": true,
+  "skipLibCheck": true,
+  "include": [
+    "src"
+  ]
+}
